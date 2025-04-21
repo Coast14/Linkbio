@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link na Bio - Estilo Netflix</title>
+    <style>
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 10px;
+        }
+        .card {
+            background-color: #222;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .video-banner {
+            width: 100%;
+            height: 200px;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .video-banner video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>A Prosperidade é Natural 🌱</header>
+    <div class="video-banner">
+        <video autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="cards">
+        <a href="https://exemplo1.com" class="card"><img src="card1.jpg" alt="Produto 1"></a>
+        <a href="https://exemplo2.com" class="card"><img src="card2.jpg" alt="Produto 2"></a>
+        <a href="https://exemplo3.com" class="card"><img src="card3.jpg" alt="Produto 3"></a>
+        <a href="https://exemplo4.com" class="card"><img src="card4.jpg" alt="Produto 4"></a>
+        <a href="https://exemplo5.com" class="card"><img src="card5.jpg" alt="Produto 5"></a>
+        <a href="https://exemplo6.com" class="card"><img src="card6.jpg" alt="Produto 6"></a>
+    </div>
+</body>
+</html>
